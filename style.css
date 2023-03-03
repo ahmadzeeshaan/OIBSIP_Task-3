@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+body {
+  background-image: url("image.jpg");
+  font-family: 'Roboto', sans-serif;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+
+.container {
+  width: 400px;
+  margin: 50px auto;
+  text-align: center;
+  background-color: rgba(0, 59, 59, 0.8);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  
+}
+
+h1 {
+  font-size: 36 px;
+  margin-bottom: 20px;
+  color: #fff;
+  
+}
+
+label {
+  display: inline-block;
+  margin-bottom: 10px;
+  font-size: 24px;
+}
+
+input, select {
+  font-size: 24px;
+  padding: 5px;
+  margin-bottom: 10px;
+  background-color: #001518;
+  color: #ffffff;
+}
+
+button {
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 10px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  margin-left: 30px;
+}
+.for{
+  color: #ffff;
+}
+
+button:hover {
+  background-color: #3e8e41;
+}
+button:active {
+  background-color: #4CAF50;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+button:focus {
+  outline: none;
+}
+input[type="text"][readonly] {
+  background-color: #001518;
+  color: #ffffff;
+  cursor: not-allowed;
+}
